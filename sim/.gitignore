@@ -1,0 +1,26 @@
+# Simulation artifacts
+sim/out
+sim/*.vcd
+
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.bit
+*.ltx
+.Xil/
+vivado*/
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# Yosys
+*.blif
+*.edif
+
+# Editor
+.nvim/
+*.swp
+*.swo
+Session.vim

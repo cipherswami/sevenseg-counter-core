@@ -1,0 +1,56 @@
+# -----------------------------
+# Build artifacts
+# -----------------------------
+build/
+*.out
+*.o
+*.obj
+*.log
+
+# -----------------------------
+# Simulation artifacts
+# -----------------------------
+sim/*.vcd
+sim/*.fst
+sim/run.log
+sim/out
+
+# Icarus / vvp leftovers
+*.vvp
+*.vcd
+
+# -----------------------------
+# Waveform / debug
+# -----------------------------
+*.gtkw
+*.lxt
+*.fst
+
+# -----------------------------
+# Editor files
+# -----------------------------
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# -----------------------------
+# OS junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Optional (future tools)
+# -----------------------------
+# verilator
+obj_dir/
+
+# yosys / nextpnr
+*.json
+*.asc
+*.bin
+
+# logs
+*.log
